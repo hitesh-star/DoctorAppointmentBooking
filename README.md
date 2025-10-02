@@ -1,16 +1,79 @@
-# React + Vite
+Prescripto — Doctor Appointment Booking Frontend
+A modern doctor appointment booking website built with React JS and Tailwind CSS. This frontend project lets users browse doctors by specialty, view profiles, and book appointments—all with a professional UI inspired by Figma.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎬 Tutorial Reference
+YouTube Step-by-Step Guide (GreatStack)
 
-Currently, two official plugins are available:
+Figma Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Assets
 
-## React Compiler
+🌟 Features
+Browse and filter doctors by specialty
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Book appointments (date & time slot selection)
 
-## Expanding the ESLint configuration
+Patient, Doctor, and Admin navigation (UI only)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive layout and modern components
+
+Tailwind CSS for all styling
+
+Integrated asset handling for images and icons
+
+🛠️ Tech Stack
+React JS (18+)
+
+Tailwind CSS
+
+React Router DOM
+
+Context API for state management
+
+⏱️ Quick Start
+Clone this repository
+
+bash
+git clone https://github.com/<your-username>/doctor-appointment-react-frontend.git
+Install dependencies
+
+bash
+npm install
+Start the development server
+
+bash
+npm run dev
+Access your app
+Open http://localhost:5173 (or the port shown in terminal).
+
+📁 Folder Structure
+text
+src/
+  ├── assets/        # Images and icons
+  ├── components/    # Reusable UI components
+  ├── pages/         # Page-level views (Home, Doctors, About, Contact, etc.)
+  ├── context/       # AppContext for global state
+  └── App.jsx        # Main app file
+tailwind.config.js   # Tailwind configuration
+🖼️ Screenshots
+See the UI design in the Figma link.
+![About Us Example]( Customization
+
+Edit doctor and specialty data in src/assets/assets.js
+
+Change colors and theme in tailwind.config.js
+
+Update routes and add new pages as needed
+
+📄 Credits
+Figma/Design by GreatStack
+
+Tutorial by GreatStackDev YouTube
+
+Images: Pexels, Unsplash, Freepik
+
+📝 License
+Frontend code is for learning, portfolio, or non-commercial use.
+See the YouTube tutorial for full-stack integration and backend guidance.
+
+Feel free to fork, adapt, and showcase your work!# Prescripto Doctor Appointment Booking (Frontend Only)
